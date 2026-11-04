@@ -11,7 +11,7 @@ export class Persona {
 
     bonificacionSalario(bonificacion) {
         if (this.salario > 0) {
-            return bonificacion * 100 / self.salario;
+            return bonificacion * 100 / this.salario;
         }
         return 0;
     }
